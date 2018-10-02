@@ -16,47 +16,6 @@ import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-class Patient {
-
-    String name;
-    String gender;
-    Date dob;
-
-    public Patient() {
-    }
-
-    public Patient(String name, String gender, Date dob) {
-        this.name = name;
-        this.gender = gender;
-        this.dob = dob;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
-
-    public Date getDob() {
-        return dob;
-    }
-
-    public void setDob(Date dob) {
-        this.dob = dob;
-    }
-
-}
-
 public class PatientFileProcessor {
 
     public void process(File source, File target) {
