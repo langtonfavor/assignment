@@ -17,7 +17,7 @@ public class PatientFileProcessorTest {
         File target = new File("target/output.txt");
         Date date = new SimpleDateFormat("dd/MM/yyyy").parse("01/01/2018"); // change the value as per test case
         PatientFileProcessor processor = new PatientFileProcessor();
-       // processor.process(source, target, date);
+       processor.process(source, target);
         // Check the content of output file with the expected result in output file
     }
 }
